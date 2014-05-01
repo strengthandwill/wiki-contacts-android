@@ -29,10 +29,9 @@ The mobile app is available at [Google Play]. Repository of Wiki-Contacts is ava
 
 ## License
 
-[Wiki-Contacts Android] is released under version 2.0 of the [Apache License].
+Wiki-Contacts Android is released under version 2.0 of the [Apache License].
 
 
-[Wiki-Contacts Android]: https://play.google.com/store/apps/details?id=com.kahkong.wikicontacts
 [Wiki-Contacts]: http://wiki-contacts.com
 [Google Play]: https://play.google.com/store/apps/details?id=com.kahkong.wikicontacts
 [GitHub]: https://github.com/strengthandwill/wiki-contacts
