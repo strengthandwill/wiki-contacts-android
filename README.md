@@ -1,8 +1,8 @@
 # Wiki-Contacts Android
 
-[Wiki-Contacts Android] is the android mobile client for web application [Wiki-Contacts]. 
+Wiki-Contacts Android is the android mobile client for web application [Wiki-Contacts]. 
 
-The mobile app is available at [Google Play]. Repository of [Wiki-Contacts] is available at [GitHub].
+The mobile app is available at [Google Play]. Repository of Wiki-Contacts is available at [GitHub].
 
 
 ## Searching contacts
