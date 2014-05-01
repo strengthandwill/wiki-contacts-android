@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/resultImageIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:minWidth="80dp"
+        android:minHeight="80dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/resultNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/resultImageIV"
+		android:paddingLeft="10dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/resultDescriptionTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultNameTV"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/resultNameTV"
+		android:paddingLeft="10dp"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/resultTagsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultDescriptionTV"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/resultDescriptionTV"
+		android:paddingLeft="10dp"
+        android:text="Tags"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

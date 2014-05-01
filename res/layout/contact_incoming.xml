@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/incomingLoadingRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:minHeight="80dp"
+            android:minWidth="80dp"
+            android:src="@drawable/ic_launcher" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="Tap the screen to dismiss"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/incomingViewRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+
+            <ImageView
+                android:id="@+id/incomingImageIV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:minHeight="80dp"
+                android:minWidth="80dp"
+                android:src="@drawable/ic_launcher" />
+
+            <TableLayout
+                android:id="@+id/tablelayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/incomingImageIV"
+                android:minHeight="80dp"
+                android:padding="5dp"
+                android:shrinkColumns="1" >
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/incomingNameTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="200dp"
+                        android:minWidth="200dp"
+                        android:text="name"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/incomingNumberTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="200dp"
+                        android:minWidth="200dp"
+                        android:text="number"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/incomingEmailTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="200dp"
+                        android:minWidth="200dp"
+                        android:text="email"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/incomingDescriptionTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="200dp"
+                        android:minWidth="200dp"
+                        android:text="description"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/incomingTagsTV"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxWidth="200dp"
+                        android:minWidth="200dp"
+                        android:text="tags"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/black" />
+                </TableRow>
+            </TableLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="Tap the screen to dismiss"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Caller ID"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <CheckBox
+            android:id="@+id/searchCallerIdCBOF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/searchHomePageTVOF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clickable"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:text="Home page"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/searchFeedbackTVOF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clickable"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:text="Feedback"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/searchRateTVOF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clickable"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:text="Rate the app"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/searchIconsTVOF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clickable"
+        android:clickable="true"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:text="Icons from PixelMixer"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
